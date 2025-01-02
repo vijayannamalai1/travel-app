@@ -16,7 +16,7 @@ const Contact = lazy(() => import('./Pages/Contact/Contact'));
 
 function App() {
   return (
-    <Router>
+    <Router basename="/travel-app">
       <div className='container-fluid'>
         <Header />
         <Suspense fallback={<div className='page'>Loading...</div>}>
@@ -34,5 +34,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
