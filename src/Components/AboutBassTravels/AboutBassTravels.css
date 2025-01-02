@@ -1,0 +1,14 @@
+.about_bass_travels .learnmore_btn{
+    background-color:#1E73BE;
+    border-radius: 30px;
+    padding: 12px 35px;
+    font-size: 16px;
+    color: #fff;
+} 
+
+.learnmore_btn::after {
+    content: " \f105"; 
+    font-family: "FontAwesome"; 
+    font-size: 16px;
+    margin-left: 5px; 
+  }

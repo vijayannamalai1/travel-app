@@ -1,0 +1,23 @@
+
+@media (max-width: 991px) {
+    .d-lg-flex {
+      display: none !important;
+    }
+  
+    .d-lg-block {
+      display: none !important;
+    }
+  }
+  
+  /* Ensures proper alignment */
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  

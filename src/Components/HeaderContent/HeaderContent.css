@@ -1,0 +1,46 @@
+.fa-check-square-o{
+    color:#1E73BE
+}
+.header-content{
+    max-width: 1200px;
+}
+.header-content .logo{
+width: 275px;
+height: 61px;
+}
+.header-icons-wrapper{
+    padding: 30px;
+   
+}
+
+.header-icons-wrapper div{
+
+    border-left: 1.5px solid rgb(232, 232, 232)
+}
+
+.header-icons-wrapper strong{
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+}
+.header-icons-wrapper div p{
+margin-bottom: 0px;
+text-align: left;
+}
+
+.header-icon-text{
+    color: rgb(66, 66, 66);
+}
+
+.header-content .booknow_btn{
+    background-color:#1E73BE;
+    border-radius: 30px;
+    padding: 12px 35px;
+    font-size: 16px;
+    color: #fff;
+} 
+.booknow_btn::after {
+    content: " \f105"; 
+    font-family: "FontAwesome"; 
+    font-size: 16px;
+    margin-left: 5px; 
+  }

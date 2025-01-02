@@ -1,0 +1,29 @@
+.call-to-action-2-section {
+    position: relative; /* Make sure the section has relative positioning */
+  }
+  
+  .call-to-action-2-section-inner {
+    position: absolute;
+    top: 50%; /* Vertically center the content */
+    left: 50%; /* Horizontally center the content */
+    transform: translate(-50%, -50%); /* Fine-tune centering */
+    width: 100%; /* Ensure it spans the full width of the section */
+    text-align: center; /* Center the text inside the content wrapper */
+  }
+  .call_to_action h3,.call_to_action p{
+    color: #fff;
+    }
+
+.call_to_action .booknow_btn{
+    background-color:#1E73BE;
+    border-radius: 30px;
+    padding: 12px 35px;
+    font-size: 16px;
+    color: #fff;
+} 
+.call_to_action .booknow_btn::after {
+    content: " \f105"; 
+    font-family: "FontAwesome"; 
+    font-size: 16px;
+    margin-left: 5px; 
+  }

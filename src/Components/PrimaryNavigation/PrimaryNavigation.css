@@ -1,0 +1,48 @@
+button.navbar-toggler{
+    top: 10px;
+    right: 5px;
+}
+
+.navbar-nav{
+background-color: #002C49;
+width:100%;
+
+    position: absolute;
+    top: -10px;
+    z-index: 999;
+
+}
+
+
+
+a.nav-link{
+    color: #fff;
+     font-size: 17px;
+    display: block;
+    text-decoration: none;
+    padding: 24px 20px;
+   
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    
+    }
+
+    a.nav-link:hover{
+        color: #fff;
+    background-color:#1E73BE;
+
+    }
+
+   .search-icon{
+    position: absolute;
+    
+    padding: 10px;
+    z-index: 999;
+    right:5px;
+    top: 50%;
+   }
+   .search-icon .fa{
+   font-size: 16px;
+   color: #fff;
+   
+   }

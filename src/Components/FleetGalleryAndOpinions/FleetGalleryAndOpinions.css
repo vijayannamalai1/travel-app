@@ -1,0 +1,93 @@
+.customer_opinion .card {
+    padding: 25px;
+    /* Set a fixed height or min-height to keep card size consistent */
+    min-height: 350px; /* Adjust this height based on your needs */
+}
+
+.customer_opinion  .card-body {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Set transition for smooth image changes */
+    transition: all 0.3s ease-in-out;
+}
+
+
+.feedback-text {
+    margin-bottom: 20px; /* Add some space below the feedback */
+}
+
+.customer_opinion .card-body .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the customer info and photo */
+    justify-content: center;
+    
+}
+
+.card-body .d-flex img {
+    margin-bottom: 10px; /* Space between the image and the text */
+    transition: all 0.3s ease-in-out !important; /* Smooth image transition */
+    width: 70px; /* Slightly increase the image size */
+    height: 70px; /* Slightly increase the image size */
+    object-fit: cover;
+}
+
+.text-center.mt-3 {
+    margin-top: 20px; /* Ensure dots are placed with a little margin from the content */
+}
+
+.dot {
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #007bff;
+}
+
+.dot:not(.active) {
+    background-color: #ccc;
+}
+
+
+.feedback-text {
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    /* Optional: Add italics to the quote text */
+  }
+  
+  .feedback-text::before {
+    content: "\f10d";  /* FontAwesome "left quote" icon */
+    font-family: "FontAwesome";
+    font-weight: 300; /* Make sure the quote is bold */
+    font-size: 2.5rem; /* Adjust size of the quote */
+    color: #1E73BE; /* Set a different color for the quotation mark */
+    position: absolute;
+    left: -25px; /* Adjust to position the quote on the left */
+    top: -25px;
+    font-style: italic;
+   
+  }
+  
+  .feedback-text::after {
+    content: "\f10e";  /* FontAwesome "right quote" icon */
+    font-family: "FontAwesome";
+    font-weight: 300; /* Make sure the quote is bold */
+    font-size: 3rem; /* Adjust size of the quote */
+    color: #1E73BE; /* Set a different color for the quotation mark */
+    position: absolute;
+    right: -25px; /* Adjust to position the quote on the right */
+    bottom: -28px;
+    font-size: 2.5rem;
+    font-style: italic;
+    
+  }
+  

@@ -1,0 +1,42 @@
+.fleet_Section .card{
+    position: relative;
+  
+}
+
+
+.fleet_Section .card h5.card-title{
+    padding-top: 10px;
+    color: #424242;
+}
+
+
+.fleet_Section .card-body{
+    border-top: 2px solid rgb(228, 227, 227);
+}
+.fleet_Section p.card-text{
+   position: absolute;
+    color: #fff;
+    background-color: rgb(30, 115, 190) !important;
+    padding:7px 14px;
+    display: inline-block;
+    bottom:31%;
+    left: 18px;
+
+}
+
+.card ul li {
+    position: relative;
+    padding-left: 25px; /* Adjust padding to make space for the icon */
+    font-size: 15px; /* Adjust font size if needed */
+}
+
+.card ul li::before {
+    content: "\f00c"; /* Font Awesome check mark unicode */
+    font-family: 'FontAwesome'; /* Ensure FontAwesome is loaded */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px; /* Adjust icon size if needed */
+    color: #1E73BE; /* Adjust icon color */
+}

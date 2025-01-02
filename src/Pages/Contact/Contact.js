@@ -1,0 +1,10 @@
+
+import React from 'react'
+
+const Contact = () => {
+  return (
+    <div className='page contact_page'>Contact</div>
+  )
+}
+
+export default Contact

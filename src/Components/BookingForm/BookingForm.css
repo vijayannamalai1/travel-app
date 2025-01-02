@@ -1,0 +1,71 @@
+.booking-form .row{
+    color: #fff;
+/* padding-top: 40px;
+padding-bottom: 40px; */
+background-color: rgb(0, 44, 73);
+
+}
+
+
+
+.booking-form .nav{
+    display: flex;
+    flex-direction: column;
+height: 100%;
+border: 1px solid rgb(65, 63, 63);
+
+}
+
+
+
+
+
+.booking-form form>button{
+    background-color:#1E73BE;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.booking-form .col-md-2 {
+    padding-left: 0; /* Removes left padding */
+    padding-right: 0; /* Removes right padding */
+    margin-top: 0; /* Removes top margin */
+    margin-bottom: 0; /* Removes bottom margin */
+  }
+  
+
+  .booking-form .col-md-10{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+  .booking-form .nav-link {
+    color: #fff;
+    position: relative; /* Ensure positioning for the arrow */
+    overflow: visible;  /* Allow the arrow to appear outside the button */
+  }
+
+
+  .booking-form .nav-link:hover {
+  color: #fff;
+}
+  
+.booking-form .nav-link.active::after {
+    content: "";
+    position: absolute;
+    top: 50%; /* Center the arrow vertically */
+    left: 100%; /* Position it outside the right edge */
+    transform: translateY(-50%); /* Align it vertically */
+    border-style: solid;
+    border-width: 15px 0px 15px 15px; /* Arrow shape */
+    border-color: transparent transparent transparent #1E73BE; /* Arrow color */
+    width: 0;
+    height: 0;
+
+  }
+  
+  .booking-form .nav-link.active{
+    background-color: #1E73BE !important;
+  }

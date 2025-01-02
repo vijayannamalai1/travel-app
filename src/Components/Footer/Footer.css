@@ -1,0 +1,77 @@
+footer{
+    color: #fff;
+    background-color: #002C49;
+    padding: 55px;
+    padding-bottom: 5px;
+}
+
+
+ul.list-unstyled li a{
+   color: #fff;
+    text-decoration: none;
+}
+
+ul.list-unstyled.quick-links li {
+    position: relative;
+    padding: 7px;
+    padding-left: 20px; /* Adjust to make space for the icon */
+     /* Adjust font size if needed */
+     border-bottom: 1px solid #3B3B3B;
+    width: 90%;
+    
+}
+
+ul.list-unstyled.quick-links li::before {
+    font-family: "FontAwesome";
+    content: "\f054"; 
+    font-size: 12px;
+    color: #1E73BE;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contact-details li{
+    position: relative;
+    padding: 7px;
+    padding-left: 30px; 
+}
+
+.contact-details li:nth-child(1):before{
+    font-family: "FontAwesome";
+    color: #fff;
+    position: absolute;
+    left: -15px;
+    top: 45%;
+    transform: translateY(-50%);
+    content: "\f041";
+    font-size: 30px;
+}
+
+.contact-details li:nth-child(2):before{
+    font-family: "FontAwesome";
+    color: #fff;
+    position: absolute;
+    left: -15px;
+    top: 45%;
+    transform: translateY(-50%);
+    content: "\f095";
+    font-size: 30px;
+}
+
+.contact-details li:nth-child(3):before{
+    font-family: "FontAwesome";
+    color: #fff;
+    position: absolute;
+    left: -15px;
+    top: 45%;
+    transform: translateY(-50%);
+    content:"\f0e0";
+    font-size: 30px;
+}
+
+.footer-bottom .fa{
+    color: #fff;
+    margin: 5px;
+}
