@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktravel_app=self.webpackChunktravel_app||[]).push([[368],{368:(a,e,p)=>{p.r(e),p.d(e,{default:()=>l});p(43);var s=p(579);const l=()=>(0,s.jsx)("div",{className:"page booking_page",children:"Booking"})}}]);
+//# sourceMappingURL=368.35a2f051.chunk.js.map
